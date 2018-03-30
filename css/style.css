@@ -1,0 +1,265 @@
+ 
+ #top {/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d8a9a2+0,f7fcff+77,fcf7f7+100 */
+background: #d8a9a2; /* Old browsers */
+background: -moz-linear-gradient(top,  #d8a9a2 0%, #f7fcff 77%, #fcf7f7 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #d8a9a2 0%,#f7fcff 77%,#fcf7f7 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #d8a9a2 0%,#f7fcff 77%,#fcf7f7 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d8a9a2', endColorstr='#fcf7f7',GradientType=0 ); /* IE6-9 */
+
+
+}
+
+ #mainnav li a{color:#5f0036;
+ margin-top:40px;
+ font-size:14px;
+ font-weight:bold;
+ }
+ 
+ #mainnav li a:hover{
+ color:white;
+ background-color:#722c2c;
+ }
+
+
+
+ /*Page Index.html */
+  #about{width:100%;
+ text-align:left;
+ text-indent:20px;
+ font-size:20px;
+ padding-top:20px;
+ }
+ 
+ 
+ #info_site{margin-top:30px;}
+ 
+ #info_site .container .row{
+  border-top:2px solid grey;
+ margin-top:20px;
+ text-align:center;
+ font-size:18px;
+ color:black;}
+ 
+  #info_site .container .row .image{
+  margin-top:20px;
+  margin-bottom:20px;}
+
+   #info_site .container .row .item2{
+   border-right:2px solid grey;
+   border-left:2px solid grey;
+   }
+  
+  .main_info{color:black;}
+  .main_info p{text-indent:25px;
+  margin-bottom:0px;}
+  
+/* Правила здорового харчування*/
+
+ #rules h4{color:#001A57;
+ text-align:center;
+ font-weight:bold;}
+ #rules .row p{font-size:18px;
+ text-indent:20px;}
+ #rules .row {margin-top:20px;}
+ 
+ #rules img{display: block;
+  margin: 0 auto;}
+  
+  /* Поради від астролога*/
+ #advices .row {margin-top:20px;}
+ #advices h4{color:#001A57;
+ text-align:center;
+ font-weight:bold;}
+ 
+  #advices .row p{font-size:17px;
+ text-indent:20px;}
+ 
+ #first{background-color:white;}
+ 
+ 
+  /* Калькулятор*/
+  
+
+  #calculator h3{
+  color:#001A57;
+  margin-bottom:40px;} 
+  
+   #calculator h4{
+  color:#722c2c;
+  font-weight:bold;} 
+  
+   #calculator .new_style{
+  color:#001A57;
+ } 
+  
+  
+  
+   #calculator .row{margin-bottom:20px;}
+   
+   #calculator input {margin-bottom:20px;}
+  
+   #calculator #reset{background-color:#722c2c;
+   color:white;
+   font-size:18px;
+   padding:2px;
+   }
+   
+    input[type=text]{
+    font-weight:bold;
+	}
+ 
+ 
+   input[type=radio] {
+  display: none;
+}
+
+   *, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+
+   .active-label, label:focus, label:hover, label:active, input:checked + label {
+  color: #e0758e;
+}
+.active-label:before, label:focus:before, label:hover:before, label:active:before, input:checked + label:before {
+  background: white;
+  border-color: #e0758e;
+}
+
+
+label {
+  font-weight: bold;
+  cursor: pointer;
+  display: block;
+  padding: 12px 10px 10px 30px;
+  margin-bottom:-17px;
+  position: relative;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-transition: all .15s ease;
+  transition: all .15s ease;}
+
+label:first-of-type {
+  border: 0;
+}
+label:before {
+  content: "";
+  position: absolute;
+  left: 0px;
+  top: 1rem;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: .2rem solid #ccc;
+}
+
+
+input:checked + label:before {
+  border-color: white;
+  border: none;
+  background: #e0758e;
+}
+
+
+
+  .new-select-style-wpandyou  {
+    background: url(http://i62.tinypic.com/15xvbd5.png) no-repeat 96% 0;
+   height: 29px;
+   overflow: hidden;
+   width: 240px;
+   border-radius: 5px;
+   background-color: lightgrey;
+   margin-bottom:15px;
+   }
+   
+   
+   
+   .new-select-style-wpandyou  select {
+   background: transparent;
+   border: none;
+   font-size: 14px;
+   height: 29px;
+   padding: 5px; /* If you add too much padding here, the options won't show in IE */
+   width: 268px;
+   font-weight:bold;
+   
+   }
+   
+
+ 
+   /* Продукти для схуднення*/
+   #food h4{color:#001A57;
+   text-align:center;
+   font-weight:bold;
+   }
+   
+   #food .row{margin-top:20px;}
+   #food .row p{font-size:17px;
+	text-indent:20px;}
+ 
+  #food img{display: block;
+  margin: 0 auto;}
+   
+     
+/* Спортивні вправи*/
+
+ #sport_excercises h4{color:#001A57;
+ text-align:center;
+ font-weight:bold;}
+ #sport_excercises .row p{font-size:18px;
+ text-indent:20px;}
+ #sport_excercises .row {margin-top:20px;}
+ 
+  #sport_excercises img{display: block;
+  margin: 0 auto;}
+ 
+ 
+   
+
+   /* Поради астролога*/
+   
+   #advices img{display: block;
+  margin: 0 auto;}
+  
+   #advices h4{color:#001A57;
+ text-align:center;
+ font-weight:bold;
+ }
+ #advices .row p{font-size:16px;
+ text-indent:20px;
+ padding-left:20px;
+ }
+ 
+ #advices .row {margin-top:30px;}
+ 
+   
+   
+ footer {/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d8a9a2+0,8e4e5f+100 */
+background: #d8a9a2; /* Old browsers */
+background: -moz-linear-gradient(top,  #d8a9a2 0%, #8e4e5f 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #d8a9a2 0%,#8e4e5f 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #d8a9a2 0%,#8e4e5f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d8a9a2', endColorstr='#8e4e5f',GradientType=0 ); /* IE6-9 */
+
+ height:100px;
+ color:black;
+ margin-top:70px;
+}
+
+
+ footer .row{
+ padding-top:20px;
+ font-size:18px;
+ }
+
+
+
+
+
+
+
+
+
+
+
